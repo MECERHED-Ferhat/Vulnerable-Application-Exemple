@@ -13,7 +13,7 @@ if ($conn->connect_error) {
 
 // sql to create table
 $sql = "CREATE TABLE MyUser (
-id_u INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+id_u INT(6) UNSIGNED PRIMARY KEY,
 firstname VARCHAR(30) NOT NULL,
 lastname VARCHAR(30) NOT NULL,
 is_admin INT(1) NOT NULL,
