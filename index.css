@@ -1,0 +1,177 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+
+}
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	margin-bottom: 100px;
+}
+.root {
+	width: 800px;
+}
+
+header.head {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+
+	padding: 40px 0;
+}
+.head-label {
+	font-size: 30px;
+}
+
+nav.nav {
+	display: flex;
+	width: 100%;
+}
+nav.nav a {
+	flex: 1;
+	padding: 5px 0;
+
+	border: black solid 1px;
+
+	text-align: center;
+	text-decoration: none;
+	color: gray;
+}
+nav.nav a:hover {
+	color: black;
+}
+
+main.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 50px;
+	padding: 30px 20px 50px 20px;
+
+	border: solid black 1px;
+	border-radius: 20px;
+}
+
+.main-email-admin {
+	cursor: pointer;
+	margin-bottom: 20px;
+	padding: 5px 15px;
+}
+.main-email-admin a{
+	text-decoration: none;
+	color: black;
+}
+
+.main-email {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+}
+.main-email * {
+	width: 100%;
+	margin: 10px 0;
+}
+.main-email > textarea {
+	resize: vertical;
+	min-height: 200px;
+}
+.main-email-btns {
+	display: flex;
+	justify-content: space-between;
+}
+.main-email-btns > input:last-child {
+	width: min-content;
+	cursor: pointer;
+}
+.main-email-submit {
+	cursor: pointer;
+	width: min-content;
+	align-self: flex-end;
+}
+
+h2.main-article-header {
+	margin-bottom: 10px;
+}
+.article-art {
+	padding: 20px 0;
+	border-top: 1px solid black;
+}
+.article-art-btn {
+	text-align: right;
+}
+.article-art-btn > button {
+	cursor: pointer;
+	margin-top: 10px;
+}
+.article-art-btn > button > a {
+	color: black;
+	text-decoration: none;
+}
+.filter-btn {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	margin-top: 80px;
+}
+.filter-btn > hr {
+	flex: 1;
+}
+.filter-btn > button {
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+	margin-left: 5px;
+}
+.main-filter {
+	display: flex;
+	flex-direction: column;
+}
+.main-filter > * {
+	margin: 10px 0;
+}
+
+.main-log > form{
+	display: flex;
+	flex-direction: column;
+}
+.main-log > form > * {
+	margin: 10px 0;
+}
+.main-log-result {
+	padding: 5px 0;
+	border: 1px solid black;
+	border-radius: 10px;
+	font-size: 15px;
+	text-align: center;
+}
+
+.main-user {
+	width: 100%;
+}
+.user-msg {
+	text-align: center;
+	margin: 20px 0;
+	font-weight: bold;
+}
+.user-form {
+	margin-top: 30px;
+	text-align: center;
+}
+h2.main-user-header {
+	margin-bottom: 30px;
+}
+.user-list-row {
+	display: flex;
+	flex-direction: column;
+	padding: 20px 0;
+	border-top: 1px solid black;
+}
+
+
+
+
+.hidden {
+	display: none !important;
+}
