@@ -8,7 +8,7 @@
 			$req = "SELECT user_token FROM MyToken WHERE
 							id_us IN (SELECT id_u FROM MyUser WHERE
 							email = '". addslashes($_POST["email"]) ."' AND
-							password = '". /* md5($_POST["password"]) */ $_POST["password"] ."');";
+							password = '". md5($_POST["password"]) ."');";
 
 			$result = $connexion->query($req);
 			if ($result->num_rows == 1) {
