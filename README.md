@@ -6,3 +6,6 @@ Coded with basic HTML-CSS-JavaScript & PHP
 
 # Vulnerabilities
 There is 5 chained vulnerabilities to be exploited, which gives access to the server-side end.
+
+## Contributors
+Made in collaboration with my colleague OULDCHEFAOUI Ismail, much thanks to him.
